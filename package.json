@@ -1,0 +1,13 @@
+{
+  "name": "astrospecvis",
+  "version": "1.0.0",
+  "description": "Astronomical Spectral Visualization Tool",
+  "scripts": {
+    "build": "tailwindcss -i ./astrospecvis/static/css/input.css -o ./astrospecvis/static/css/styles.css",
+    "watch": "tailwindcss -i ./astrospecvis/static/css/input.css -o ./astrospecvis/static/css/styles.css --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

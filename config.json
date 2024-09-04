@@ -1,0 +1,22 @@
+{
+  "data_paths": {
+    "miri_spectra": "astrospecvis/data/raw/WISE1049AB_mirispectra.fits",
+    "flux_nirspec_b": "astrospecvis/data/raw/NIRSpec/W1049B_Jy_fluxarr.fits",
+    "variance_nirspec_b": "astrospecvis/data/raw/NIRSpec/W1049B_NIRSpec_fluxarr_originalcadence.fits",
+    "mjdarr": "astrospecvis/data/raw/NIRSpec/W1049AB_mjdarr.fits",
+    "nirspec_wlarr": "astrospecvis/data/raw/NIRSpec/W1049A_wlarr.fits"
+  },
+  "output_paths": {
+    "nirspec_variability_map": "astrospecvis/static/plots/W1049B_NIRSpec_Variability_Map.html",
+    "nirspec_flux_map": "astrospecvis/static/plots/W1049B_NIRSpec_Flux_Map.html",
+    "nirspec_specific_lightcurves": "astrospecvis/static/plots/W1049B_NIRSpec_Specific_Lightcurves.html",
+    "miri_variability_map": "astrospecvis/static/plots/W1049B_MIRI_Variability_Map.html",
+    "miri_flux_map": "astrospecvis/static/plots/W1049B_MIRI_Flux_Map.html",
+    "miri_specific_lightcurves": "astrospecvis/static/plots/W1049B_MIRI_Specific_Lightcurves.html"
+  },
+  "plot_settings": {
+    "nirspec_bin_size": 100,
+    "miri_bin_size": 50,
+    "max_frames": 15
+  }
+}

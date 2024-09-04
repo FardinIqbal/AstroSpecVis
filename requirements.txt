@@ -1,0 +1,12 @@
+numpy
+matplotlib
+astropy
+scikit-learn
+plotly
+kneed
+ipywidgets
+Flask==2.0.1
+numpy==1.21.0
+astropy==4.2.1
+plotly==5.3.1
+flask==2.1.0
